@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Location } from '@angular/common'
-import * as $ from 'jquery'
+import { Location } from '@angular/common';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-home',

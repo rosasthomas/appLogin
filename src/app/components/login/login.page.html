@@ -19,8 +19,8 @@
       <ion-chip class="password">
         <ion-icon name="keypad-outline"></ion-icon>
         <ion-input min-length="6" max-length="20" formControlName="password" clear-input type="password" name="password" id="password" placeholder="Contraseña" ></ion-input>
-        <ion-icon (click)="seePassword()" id="passDisable" name="eye-outline"></ion-icon>
-        <ion-icon (click)="blindPassword()" name="eye-off-outline" id="passEnable" hidden></ion-icon>
+        <ion-icon (click)="seePassword()" id="passDisable" name="eye-outline"  ></ion-icon>
+        <ion-icon (click)="blindPassword()" name="eye-off-outline" id="passEnable" class="blindPass" hidden></ion-icon>
       </ion-chip>
 
       
