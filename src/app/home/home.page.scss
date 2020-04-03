@@ -1,31 +1,68 @@
-#container {
-  text-align: center;
+@keyframes slidein {
+  from {
+    margin-bottom: 40%;
+   
+  }
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  to {
+    margin-bottom: 0%;
+    
+  }
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
 
-#container p {
-  font-size: 16px;
+p {
+  font-size: 30px;
   line-height: 22px;
 
-  color: #8c8c8c;
-
-  margin: 0;
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+  
 }
 
-#container a {
-  text-decoration: none;
+ion-content{
+  --background: url("../../assets/fondo.jpg");
 }
 
-ion-content ion-toolbar {
-  --background: translucent;
+h1{
+  text-align: center;
+  font-size: 30px;
+}
+
+ion-toolbar{
+  --background : rgba(32, 32, 32, 0.523) ; 
+}
+
+div{
+  background: rgba(32, 32, 32, 0.523);
+  position: relative;
+  margin-top: 25%;
+    margin-bottom: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 40%;
+    border-radius: 10%;
+}
+
+button{
+  background: rgba(32, 32, 32, 0.523);
+  border-radius: 8%;
+  height: 20%;
+  width: 60%;
+  color: white;
+  font-size: 30px;
+  outline: none;
+  margin-left: 20%;
+  margin-top: 15%;
+}
+
+button:active{
+  background: rgba(204, 204, 204, 0.694)
+
+}
+
+.init{
+    animation-duration: 1s;
+    animation-name: slidein;
 }
